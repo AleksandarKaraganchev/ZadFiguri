@@ -121,7 +121,7 @@ namespace Rectagle
                     circle.Print();
                 }
             }
-            if (chooseoption > 5)
+            if (chooseoption > 5 || chooseoption < 1)
             {
                 Console.WriteLine("Enter an option in the correct format!!!");
             }
